@@ -1,0 +1,3 @@
+1. I would move mTransform into a separate component because position and scale are useful for many game objects, not just sprites. Other objects, like enemies and collision objects, can also share this component.
+
+2. We need to draw sprites in back to front order so that transparent sprites appear correctly on top of each other.
